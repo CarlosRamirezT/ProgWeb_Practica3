@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Mustacchio</title>
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <link rel="stylesheet" href="~/Resources/styles-personal.css"/>
+</head>
+<body>
+
+    <!-- Logo Image start -->
+    <div class="header-logo-img">
+        <img src="~/Resources/Images/logo.jpg" />
+    </div>
+    <!-- Logo Image end -->
+
+    <!-- Navigation start -->
+    <header class="navigation-header">
+        <il>
+            @Html.ActionLink("HOME", "Index", "Home", new { style = "text-decoration: none;" })
+            @Html.ActionLink("ABOUT", "About", "Home", new { style = "text-decoration: none;" })
+            @Html.ActionLink("GALLERY", "Gallery", "Home", new { style = "text-decoration: none;" })
+            @Html.ActionLink("BLOG", "Blog", "Home", new { style = "text-decoration: none;" })
+            @Html.ActionLink("CONTACT", "Contact", "Home", new { style = "text-decoration: none;" })
+        </il>
+    </header>
+    <!-- Navigation end -->
+
+
+    <div class="content">
+        @RenderBody()
+        <!-- Footer start -->
+        <footer class="footer">
+            <div class="footer-div-left">
+                <p>Cadara Software - All Rights Reserved</p>
+            </div>
+            <div class="footer-div-right">
+                <img id="icon-twitter" src="~/Resources/Images/icons/icon-twitter.jpg" />
+                <img id="icon-facebook" src="~/Resources/Images/icons/icon-facebook.jpg" />
+                <img id="icon-googleplus" src="~/Resources/Images/icons/icon-googleplus.jpg" />
+                <img id="icon-pinterest" src="~/Resources/Images/icons/icon-pinterest.jpg" />
+            </div>
+        </footer>
+        <!-- Footer end -->
+    </div>
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

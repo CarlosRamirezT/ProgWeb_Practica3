@@ -1,0 +1,160 @@
+﻿body {
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.header-logo-img {
+    max-width: 100%;
+    text-align: center;
+}
+
+.navigation-header{
+    max-width: 100%;
+    margin: 50px 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+.navigation-header il{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigation-header il a{
+    color: black;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1%;
+}
+
+.footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 25px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-div-right{
+    position: relative;
+    display: block;
+    text-align: end;
+    margin-left: 50%;
+}
+
+.content {
+    margin: 50px 0;
+}
+
+.hero-banner {
+    background: url("Images/home/the-beacon.jpg");
+    width: 1440px;
+    height: 554px;
+}
+
+.hero-banner .hero-content-right{
+    margin-left: 50%;
+}
+
+.hero-banner .hero-content-right h3, h4{
+    width: fit-content;
+}
+
+.hero-banner .hero-content-right h3{
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+
+.hero-banner .hero-content-right h4 {
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+
+.hero-banner .hero-content-right a {
+    padding: 25px;
+    background-color: cyan;
+    color: white;
+    text-decoration: none;
+   
+}
+
+.content-flex-imgs{
+    display:flex;
+    padding: 2%;
+    text-align: center;
+}
+
+.content-flex-imgs .flex-img {
+    margin: 5%;    
+}
+
+.about-content{
+    display: flex;
+    margin: 5%;
+}
+
+.about-content .about-content-right{
+    margin-left: 1%;
+    max-width: 50%;
+}
+
+.about-content .about-content-right h6 {
+    color: rgb(229, 206, 154);
+}
+
+.blog-content{
+    max-width: 100%;
+    text-align: center;
+}
+
+.blog-content h1, a {
+    color: rgb(229, 206, 154);
+}
+
+.contact-content{
+    width: 100%;
+    margin: 0 10% 10% 10%;
+    display: flex;
+    float: left;
+}
+
+.contact-content .contact-content-left{
+    width: 35%;
+}
+
+.contact-content .contact-content-left h6 {
+    color: rgb(229, 206, 154);
+}
+
+.contact-content .contact-content-left input[type='text'], input[type='date'], input[type='email'] {
+    padding: 15px 0px;
+    border-radius: 4px;
+    margin: 2%;
+    width: 45%;
+    font-size: 16px;
+    background-color: transparent;
+    border-style: none none solid;
+    outline: none;
+    border-bottom: 1px solid rgb(87, 87, 87);
+}
+
+.contact-content .contact-content-left input[type='submit'] {
+    background-color: rgb(102, 75, 0);
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 30px;
+    color: white;
+    font-size: 18px;
+}
+
+.contact-content .contact-content-right{
+    margin-left: 5%;
+}
